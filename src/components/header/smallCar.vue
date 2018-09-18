@@ -3,7 +3,7 @@
     <!--active-->
     <li class="nav-user">
       <a href="javascript:;">个人中心</a>
-        <div class="nav-user-wrapper">
+        <!-- <div class="nav-user-wrapper">
           <div class="nav-user-list">
             <dl class="nav-user-avatar">
               <dd><span class="ng-scope"></span></dd>
@@ -18,7 +18,7 @@
               <li class="logout"><a href="javascript:;">退出</a></li>
             </ul>
           </div>
-        </div>
+        </div> -->
       <!--active-->
     </li>
     <li class="nav-cart" @mouseover="showCart" @mouseout="hideCart" v-show="isCarShow">
